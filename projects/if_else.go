@@ -1,14 +1,28 @@
 package projects
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+
+	"github.com/joho/godotenv"
+)
 
 func If_Else() {
 
-	x := true
+      godotenv.Load("go.env")
 
-	if x {
-		fmt.Println("x is true")
-	}else {
-		fmt.Println("falesee")
+	number := os.Getenv("Number")
+   var guess string 
+	fmt.Print("enter your guess number : ")
+    fmt.Scan(&guess)
+	if guess <number {
+		fmt.Println("low guess ")
+	}
+	if guess > number {
+		fmt.Println("large number")
+	}
+
+	if guess == number {
+     fmt.Println("you are right")
 	}
 }

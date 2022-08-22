@@ -6,6 +6,6 @@ import (
 
 )
 func main() {
-   projects.ValidMailAddress()
+//    projects.ValidMailAddress()
    projects.If_Else()
 }
