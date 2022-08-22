@@ -25,4 +25,6 @@ func If_Else() {
 	if guess == number {
      fmt.Println("you are right")
 	}
+
+	fmt.Println(guess <= number , guess >=number , guess !=number)
 }
