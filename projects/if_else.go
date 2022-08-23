@@ -15,10 +15,10 @@ func If_Else() {
    var guess string 
 	fmt.Print("enter your guess number : ")
     fmt.Scan(&guess)
-	if guess <number {
+	if guess <number{
 		fmt.Println("low guess ")
 	}
-	if guess > number {
+    if guess > number{
 		fmt.Println("large number")
 	}
 
@@ -26,5 +26,7 @@ func If_Else() {
      fmt.Println("you are right")
 	}
 
-	fmt.Println(guess <= number , guess >=number , guess !=number)
+	// fmt.Println(guess <= number , guess >=number , guess !=number)
 }
+
+// < > == <= >= !=

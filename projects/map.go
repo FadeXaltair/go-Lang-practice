@@ -6,10 +6,13 @@ func Map(){
    //if you dont have the value we can just initialise them
 
 	// a := make(map[string]int)
-	a := map[string]int{
+	a := map[string]interface{}{
 		"value 1" : 1,
-		"value 2" : 2,
+		"value 2" : "helo",
 	}
+
+
+
 
 	fmt.Println(a["value 1"])
 
