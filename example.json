@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "name" : "hary",
+            "class" : 1,
+            "school" : "stsoldir"
+        },
+        {
+            "name" : "ary",
+            "class" : 18,
+            "school" : "stsoldir"
+        },
+        {
+            "name" : "hy",
+            "class" : 12,
+            "school" : "stsoldir"
+        }
+    ]
+}

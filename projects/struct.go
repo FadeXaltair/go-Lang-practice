@@ -2,7 +2,7 @@ package projects
 
 import "fmt"
 
-type variable struct {
+type Variable struct {
 	number     int
 	name       string
 	companions []string
@@ -11,7 +11,7 @@ type variable struct {
 
 func Struct() {
 
-	a := variable{
+	a := Variable{
 		number: 1,
 		name:   "hitesh",
 		companions: []string{
